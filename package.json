@@ -1,0 +1,39 @@
+{
+  "name": "openapi-utilities",
+  "version": "0.1.0",
+  "description": "openapi-utilities",
+  "main": "lib/index.js",
+  "bin": {
+    "openapi-utilities": "lib/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanhvam/openapi-utilities.git"
+  },
+  "keywords": [
+    "openapi"
+  ],
+  "author": "Allan Hvam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allanhvam/openapi-utilities/issues"
+  },
+  "homepage": "https://github.com/allanhvam/openapi-utilities#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "@commander-js/extra-typings": "^12.0.1",
+    "yaml": "^2.4.0"
+  }
+}
